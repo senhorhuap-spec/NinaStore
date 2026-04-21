@@ -1,0 +1,13 @@
+{
+  "name": "NinaStore",
+  "description": "Plataforma multitenant para criação de lojas virtuais de gift cards com entrega automatizada e suporte a IA.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "multi-tenant",
+    "ecommerce",
+    "digital-goods",
+    "tts"
+  ]
+}

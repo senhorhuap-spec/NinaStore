@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-indigo-600: #4F46E5;
+  --color-indigo-700: #4338CA;
+  --color-slate-50: #F8FAFC;
+  --color-slate-100: #F1F5F9;
+  --color-slate-200: #E2E8F0;
+  --color-slate-400: #94A3B8;
+  --color-slate-500: #64748B;
+  --color-slate-600: #475569;
+  --color-slate-800: #1E293B;
+}
+
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+  
+  body {
+    background-color: #F1F5F9;
+    color: #1E293B;
+  }
+}
+
+@layer components {
+  .sidebar-active {
+    background-color: #EEF2FF;
+    color: #4F46E5;
+    border-right: 3px solid #4F46E5;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+  }
+
+  .stats-gradient {
+    background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+  }
+}
